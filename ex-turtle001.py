@@ -1,10 +1,10 @@
 from turtle import *
-shape('turtle')
+
 speed(4)
 
 def poligonos(n):
     for count in range(n):
-        forward(100)
+        forward(10)
         left(360 / n)
 
 def write_trilha():
@@ -16,6 +16,6 @@ def write_trilha():
 
 
 #chame aqui a função desejada
-poligonos(3)
+poligonos(30)
 
 done()
